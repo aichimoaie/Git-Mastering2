@@ -18,3 +18,5 @@ git log release1.0..release1.1 --format=format: --name-only | sed '/^$/d'  | sor
 git diff --pretty  release1.0..release1.1 --numstat  --relative
 <br>
 git diff --pretty  release1.0..release1.1 --numstat  --relative="org.tutorial.module/test/"  org.eclipse.module/test/
+<br>
+https://stackoverflow.com/questions/6349139/can-i-get-git-to-tell-me-all-the-files-one-user-has-modified
