@@ -20,3 +20,9 @@ git diff --pretty  release1.0..release1.1 --numstat  --relative
 git diff --pretty  release1.0..release1.1 --numstat  --relative="org.tutorial.module/test/"  org.eclipse.module/test/
 <br>
 https://stackoverflow.com/questions/6349139/can-i-get-git-to-tell-me-all-the-files-one-user-has-modified
+<br>
+
+https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-chmod-changes
+<br>
+git config core.fileMode false
+<br>
