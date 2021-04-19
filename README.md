@@ -26,3 +26,4 @@ https://stackoverflow.com/questions/1580596/how-do-i-make-git-ignore-file-mode-c
 <br>
 git config core.fileMode false
 <br>
+git log --format=%aD ./shell/design_updates.csv | tail -1
